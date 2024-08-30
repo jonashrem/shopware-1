@@ -1,19 +1,19 @@
 name: PHP checks
 
 on:
-  push:
-    branches:
-      - trunk
-  pull_request:
-    paths:
-      - '**/composer.json'
-      - changelog/**/*.md
-      - src/**/*.php
-      - src/Core/**/*
-      - src/Elasticsearch/**/*
-      - src/Storefront/DependencyInjection/*
-      - src/**/snippet/**/*.json
-  workflow_dispatch:
+#  push:
+#    branches:
+#      - trunk
+#  pull_request:
+#    paths:
+#      - '**/composer.json'
+#      - changelog/**/*.md
+#      - src/**/*.php
+#      - src/Core/**/*
+#      - src/Elasticsearch/**/*
+#      - src/Storefront/DependencyInjection/*
+#      - src/**/snippet/**/*.json
+#  workflow_dispatch:
   workflow_call:
 
 jobs:
