@@ -29,8 +29,6 @@ jobs:
         redis:
           - redis:alpine
           - eqalpha/keydb:latest
-          - registry.redict.io/redict
-          - docker.dragonflydb.io/dragonflydb/dragonfly
     services:
       database:
         image: mysql:8.0
