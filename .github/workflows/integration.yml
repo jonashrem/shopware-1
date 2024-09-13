@@ -60,6 +60,19 @@ jobs:
       matrix:
         suite:
           - name: integration
+            path: tests/integration/Core/Checkout
+          - name: integration
+            path: tests/integration/Core/Content
+          - name: integration
+            path: tests/integration/Core/Framework
+          - name: integration
+            path: tests/integration/Core/Installer
+          - name: integration
+            path: tests/integration/Core/Maintenance
+          - name: integration
+            path: tests/integration/Core/System
+          - name: integration
+            path: tests/integration/Storefront tests/integration/Administration tests/integration/Elasticsearch
           - name: administration,storefront
           - name: content
           - name: framework
